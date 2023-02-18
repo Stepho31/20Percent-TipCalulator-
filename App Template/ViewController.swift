@@ -28,8 +28,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func submitButtonTapped(_ sender: Any) {
         
-//        billAmountTextField.resignFirstResponder()
-        
         let tipAmount = calculateTwentyPercentTip()
         
         if resultLabel.text == nil {
